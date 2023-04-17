@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Khối container chứa đăng nhập */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(66, 183, 245, 0.8) 0%,
+    rgba(66, 245, 189, 0.4) 100%
+  );
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(66, 183, 245, 0.8);
+}
+
+
+
+#login {
+  width: 350px;
+  height: 500px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+#heading1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: #4285f4;
+  text-decoration: underline;
+}
+
+#heading2 {
+  font-size: 22px;
+  padding-top: 5%;
+  padding: auto;
+  color: #4285f4;
+}
+
+p.name {
+    font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: black;
+  display: flex;
+  justify-self: unset;
+  padding-left: 0px;
+  padding-bottom: 7px;
+  font-weight: 500;
+}
+
+
+.p,
+input {
+  margin-bottom: 7px;
+}
+
+.user-name input[type="text"],
+.user-pass input[type="password"] {
+  width: 351.6px;
+  height: 51.6px;
+  background: rgb(237, 236, 236);
+  border-radius: 8px;
+  border-style: none;
+  font-size: 15px;
+  font-family: "Poppins";
+  color: #4285f4;
+  font-weight: 500;
+  text-indent: 15px;
+}
+.user_pass input[type="password"] {
+  width: 351.6px;
+  height: 51.6px;
+  background: rgb(237, 236, 236);
+  border-radius: 8px;
+  border-style: none;
+  font-size: 15px;
+  color: rgb(10, 98, 44);
+  font-weight: 500;
+  text-indent: 15px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(66, 183, 245, 0.8);
+}
+
+/* Thông báo lỗi */
+.error-msg {
+  display: block;
+  color: crimson;
+}
+
+/* Nút đăng nhập */
+input[type="submit"] {
+  background-color: rgba(66, 183, 245, 0.8);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 130px;
+  cursor: pointer;
+  font-size: large;
+  border-style: none;
+  
+  justify-content: space-between;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(66, 183, 245, 1);
+}
+
+/* Đường link Đăng ký */
+p a {
+  color: rgba(66, 183, 245, 0.8);
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
